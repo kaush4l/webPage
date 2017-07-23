@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 1px blue;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+div.aboutme{
+    padding-left: 20%;
+    padding-right: 20%;
+    height: auto;
+}
+
+div.biopic{
+    display: inline-block;
+    background-image: url("../../images/img.jpg");
+    background-size : contain;
+    border-radius: 150px;
+    padding: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+div.container{
+    display: inline-block;
+    height: 200px;
+    width: 450px;
+}
+
+div.intro{
+    background-color:lightgray;
+    text-align: center;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.quote{
+    font-size: 18px;
+}
+
+span.name{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 1px blue;
+}
+
+.edu{
+    width: 90%;
+}
+
+.fill{
+    width:20%;
+    display: inline-block;
+}
+
+.time{
+    width: 10%;
+    padding: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    border-radius: 150px 50px; 
+    text-align: center;
+    position: relative;
+    background-color: royalblue;
+}
+
+.time:hover{
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+.description{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: gray;
+    width:55%;
+    padding: 1%;
+    position: relative;
+    text-align: justify;
+}
+
+.description:hover{
+    font-weight: bold;
+}

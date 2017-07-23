@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 1px blue;
+}
+
+.projects{
+    width:80%;
+}
+
+.fill{
+    width: 20%;
+    display: inline-block;
+}
+
+.time{
+    display: inline-block;
+    width: 10%;
+    padding: 1%;
+    margin: auto;
+    border-radius: 150px 50px; 
+    text-align: center;
+    background-color: royalblue;
+}
+
+.time:hover{
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
+
+.desc{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: gray;
+    width:55%;
+    padding: 1%;
+    position: relative;
+    text-align: justify;
+}
+
+.desc:hover{
+    font-weight: bold;
+}
+
+.clearfix{
+    overflow: auto;
+}
